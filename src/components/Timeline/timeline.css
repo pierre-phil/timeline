@@ -8,11 +8,15 @@
 
 /* Line */
 
-.timeline-container::after {
-  background-color: purple;
+.timeline-line_container {
+  background-color: lightgray;
   content: "";
   position: absolute;
   left: -2px;
   width: 4px;
   height: 100%;
+}
+
+.timeline-line_fill {
+  background-color: purple;
 }
